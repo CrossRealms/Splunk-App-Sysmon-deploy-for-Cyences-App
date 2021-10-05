@@ -44,10 +44,9 @@ OPEN SOURCE COMPONENTS AND LICENSES
 * NA
 
 
-BINARY FILE DECLARATION
-------------------------------
-apps\TA-sysmon-deploy-for-cyences\bin\Sysmon.exe: this file does not require any source code
-apps\TA-sysmon-deploy-for-cyences\bin\Sysmon64.exe: this file does not require any source code
+# Binary File Declaration
+bin/Sysmon.exe: this file does not require any source code
+bin/Sysmon64.exe: this file does not require any source code
 
 
 
