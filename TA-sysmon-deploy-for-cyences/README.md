@@ -10,7 +10,7 @@ The Sysmon Deploy for Cyences App is a Splunk Add-on to deploy Sysmon and collec
 
 
 * Author - CrossRealms International Inc.
-* Version - 1.0.0
+* Version - 1.0.1
 * Build - 1
 * Creates Index - False
 * Compatible with:
@@ -35,6 +35,11 @@ Visit https://cyences.com/cyences-app-for-splunk/ for the more information.
 
 RELEASE NOTES
 -------------
+Version 1.0.1 (October 2021)
+* Excluded more Splunk related files from being collected to reduce license usage.
+* Removed invalid key from inputs.conf.
+
+
 Version 1.0.0 (October 2021)
 * Created Sysmon Deploy Add-on for Cyences App with scripts and inputs.
 
