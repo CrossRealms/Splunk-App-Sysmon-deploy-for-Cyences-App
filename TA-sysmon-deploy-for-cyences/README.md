@@ -1,8 +1,5 @@
 # Sysmon Deploy Add-on for Cyences App
 
-### Download from Splunkbase
-TODO
-
 
 OVERVIEW
 --------
@@ -33,6 +30,11 @@ Visit https://cyences.com/cyences-app-for-splunk/ for the more information.
 
 RELEASE NOTES
 -------------
+Version 1.1.0 (December 2022)
+* Sysmon binary updated to the latest version 14.13.
+* The config updater input now executes every hour.
+
+
 Version 1.0.2 (November 2022)
 * Sysmon binary updated to the latest version 14.11.
 
@@ -64,6 +66,7 @@ CONTRIBUTORS
 * Preston Carter
 * Ahad Ghani
 * Usama Houlila
+* Mahir Chavda
 
 
 SUPPORT
@@ -71,4 +74,4 @@ SUPPORT
 * Contact - CrossRealms International Inc.
   * US: +1-312-2784445
 * License Agreement - https://d38o4gzaohghws.cloudfront.net/static/misc/eula.html
-* Copyright - Copyright CrossRealms Internationals, 2021
+* Copyright - Copyright CrossRealms Internationals, 2022
