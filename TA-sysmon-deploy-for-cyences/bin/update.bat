@@ -1,6 +1,8 @@
-FOR /F "delims=" %%i IN ('wmic service SplunkForwarder get Pathname ^| findstr /m service') DO set SPLUNKDPATH=%%i
-set SPLUNKPATH=%SPLUNKDPATH:~1,-28%
+ECHO OFF
+
+SET SPLUNKPATH=%~dp0
+
 >> C:\Windows\sysmon.log (
-fc C:\Windows\sysmonconfig.xml "%SPLUNKPATH%\etc\apps\TA-sysmon-deploy-for-cyences\bin\sysmonconfig.xml" | Find "no differences" 1>nul && echo %DATE%-%TIME% No updates found && exit
-echo %DATE%-%TIME% Update found, installing && copy /z /y "%SPLUNKPATH%\etc\apps\TA-sysmon-deploy-for-cyences\bin\sysmonconfig.xml" "C:\Windows\" && "C:\Windows\Sysmon.exe" -c C:\Windows\sysmonconfig.xml
+fc C:\Windows\sysmonconfig.xml "%SPLUNKPATH%\sysmonconfig.xml" | Find "no differences" 1>nul && echo %DATE%-%TIME% No updates found && exit
+echo %DATE%-%TIME% Update found, installing && copy /z /y "%SPLUNKPATH%\sysmonconfig.xml" "C:\Windows\" && "C:\Windows\Sysmon.exe" -c C:\Windows\sysmonconfig.xml
 )
