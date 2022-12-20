@@ -32,7 +32,8 @@ RELEASE NOTES
 -------------
 Version 1.1.0 (December 2022)
 * Sysmon binary updated to the latest version 14.13.
-* The config updater input now executes every hour.
+* Enhanced deploy Sysmon and update config scripted input.
+* Added log clean up script to remove log file every week.
 
 
 Version 1.0.2 (November 2022)
