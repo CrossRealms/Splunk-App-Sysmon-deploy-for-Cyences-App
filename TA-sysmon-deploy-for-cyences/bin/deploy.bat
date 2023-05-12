@@ -10,7 +10,7 @@ FOR /F "delims=" %%c IN ('sc query "Sysmon" ^| FIND /c "RUNNING"') DO (
 )
 ECHO %DATE%-%TIME% CHECK_SYSMON_RUNNING="%CHECK_SYSMON_RUNNING%" >> %WINDIR%\sysmon.log
 
-FOR /F "delims=" %%b IN ('C:\Windows\Sysmon.exe ^| FIND /c "System Monitor v14.13"') DO (
+FOR /F "delims=" %%b IN ('C:\Windows\Sysmon.exe ^| FIND /c "System Monitor v14.16"') DO (
     SET CHECK_SYSMON_VERSION=%%b
 )
 

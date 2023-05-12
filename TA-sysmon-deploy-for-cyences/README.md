@@ -30,6 +30,10 @@ Visit https://cyences.com/cyences-app-for-splunk/ for the more information.
 
 RELEASE NOTES
 -------------
+Version 1.1.1 (May 2023)
+* Sysmon binary updated to the latest version 14.16.
+
+
 Version 1.1.0 (December 2022)
 * Sysmon binary updated to the latest version 14.13.
 * Enhanced deploy Sysmon and update config scripted input.
