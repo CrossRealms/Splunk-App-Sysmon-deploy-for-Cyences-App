@@ -10,6 +10,13 @@ FOR /F "delims=" %%c IN ('sc query "Sysmon" ^| FIND /c "RUNNING"') DO (
 )
 ECHO %DATE%-%TIME% CHECK_SYSMON_RUNNING="%CHECK_SYSMON_RUNNING%" >> %WINDIR%\sysmon.log
 
+
+REM This are Comments - Notes
+REM We are installing Sysmon from SPLUNK/etc/apps/TA-sysmon-deploy-for-cyences/bin/Sysmon
+REM When Sysmon is installed it automatically copies the Sysmon related files (exe and config files) to C:\Windows directory
+REM And thats why we have hardcoded C:\Windows directory path (also we faced some issue using variable in some part of the batch script.
+
+
 FOR /F "delims=" %%b IN ('C:\Windows\Sysmon.exe ^| FIND /c "System Monitor v14.16"') DO (
     SET CHECK_SYSMON_VERSION=%%b
 )
