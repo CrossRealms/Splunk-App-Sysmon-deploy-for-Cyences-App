@@ -80,3 +80,8 @@ SUPPORT
   * US: +1-312-2784445
 * License Agreement - https://d38o4gzaohghws.cloudfront.net/static/misc/eula.html
 * Copyright - Copyright CrossRealms Internationals, 2023
+# What's inside the App
+
+* No of Custom Inputs: **5**
+
+
