@@ -5,12 +5,16 @@ OVERVIEW
 --------
 The Sysmon Deploy for Cyences App is a Splunk Add-on to deploy Sysmon and collect Sysmon logs from Windows hosts. This Add-on is useful to collect the Sysmon data for Cyences App for Splunk (https://splunkbase.splunk.com/app/5351/). It contains required inputs and scrips. It does not contain alerts/reports and dashboards.
 
-
 * Author - CrossRealms International Inc.
 * Creates Index - False
 * Compatible with:
    * Splunk Enterprise version: 9.0, 8.2, 8.1, 8.0
    * OS: Platform Independent
+
+
+## What's inside the Add-on
+
+* No of Custom Inputs: **5**
 
 
 
@@ -80,8 +84,3 @@ SUPPORT
   * US: +1-312-2784445
 * License Agreement - https://d38o4gzaohghws.cloudfront.net/static/misc/eula.html
 * Copyright - Copyright CrossRealms Internationals, 2023
-# What's inside the App
-
-* No of Custom Inputs: **5**
-
-
